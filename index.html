@@ -9,9 +9,11 @@
 </head>
 <body>
   <div class="container">
-      <h3>Advice #<span id="advice-id"></span></h3>
-      <q id="advice"></q>
-      <button class="dice-btn" id="dice-btn">
+      <h3 id="advice-id"></h3>
+      <div class="advice-container">
+        <p id="advice"></p>
+      </div>
+      <button class="dice-btn" id="dice-btn" onclick="fetchAdvice()">
         <img src="images/icon-dice.svg" alt="">
       </button>
   </div>

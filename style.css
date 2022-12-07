@@ -29,7 +29,7 @@ body{
 .container{
     max-width: 480px;
     width: 100%;
-    min-height: 250px;
+    min-height: 300px;
     background-color: var(--Dark-Grayish-Blue);
     text-align: center;
     padding: 2.5rem 2.5rem 4rem;
@@ -74,16 +74,20 @@ body{
     margin-bottom: 1.5rem;
 }
 
+.advice-container{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
 #advice{
     color: var(--Light-Cyan);
     font-size: 1.75rem;
-    position: relative;
 }
 
-#advice::after{
+.advice-container::after{
     content: '';
     position: absolute;
-    bottom: -16px;
+    bottom: -40px;
     left: 0;
     right: 0;
     height: 16px;
